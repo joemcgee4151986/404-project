@@ -41,8 +41,33 @@ left: 200px;
       .welcome-text a {
         color: #f7542e;
       }
-.scarecrow{
-height:100px;
-top:1260px;
-left:80px;
+.container img{
+position: relative;
+height:400px;
+width: 400.22px;
+top:35px;
+left:27px;
+}
+.container h1{
+position: absolute;
+right: 119px;
+top: 165px;
+left: 735px;
+font-size: 30px;
+line-height: 35.54px;
+font-family: 'Space Mono', monospace;
+}
+.container p{
+position: absolute;
+top: 240px;
+left: 736px;
+right: 119px;
+font-size: 15px;
+line-height: 35.54px;
+font-family: 'Space Mono', monospace;
+}
+@media screen and (min-width: 600px){
+position: relative;
+top: 463px;
+left: 740px;
 }
