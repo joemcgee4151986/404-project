@@ -43,26 +43,26 @@ left: 200px;
       }
 .container img{
 position: relative;
-height:400px;
-width: 400.22px;
+height:500px;
+width: 600.22px;
 top:35px;
-left:27px;
+left:10px;
 }
 .container h1{
 position: absolute;
 right: 119px;
 top: 165px;
 left: 735px;
-font-size: 30px;
-line-height: 35.54px;
+font-size: 65px;
+line-height: 90.78px;
 font-family: 'Space Mono', monospace;
 }
 .container p{
 position: absolute;
-top: 240px;
+top: 340px;
 left: 736px;
 right: 119px;
-font-size: 15px;
+font-size: 25px;
 line-height: 35.54px;
 font-family: 'Space Mono', monospace;
 }
@@ -70,4 +70,14 @@ font-family: 'Space Mono', monospace;
 position: relative;
 top: 463px;
 left: 740px;
+}
+.container button{
+background-color: #333333;
+font-family: 'Space Mono', monospace;
+width: 200px;
+height: 68px;
+position:absolute;
+top: 463px;
+left: 735px;
+color:white;
 }
